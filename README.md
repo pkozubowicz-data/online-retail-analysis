@@ -13,10 +13,10 @@ Analiza ok. dwóch lat transakcji (grudzień 2009 – grudzień 2011) brytyjskie
 ## Dashboard
 
 **Strona „Przegląd"**
-![Przegląd](dashboard/dashboard_przeglad.png)
+![Przegląd](dashboard_przeglad.png)
 
 **Strona „Geografia"**
-![Geografia](dashboard/dashboard_geografia.png)
+![Geografia](dashboard_geografia.png)
 
 ## Narzędzia i dane
 
