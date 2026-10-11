@@ -27,11 +27,11 @@ Analiza ok. dwóch lat transakcji (grudzień 2009 – grudzień 2011) brytyjskie
 
 | # | Pytanie | Plik |
 |---|---------|------|
-| 1 | Jak wygląda miesięczny przychód, czy widać trend/sezonowość? | `sql/01_trend_miesieczny.sql` |
-| 2 | Top 10 produktów wg przychodu i ich udział w całości | `sql/02_top10_produktow.sql` |
-| 3 | Jaki % klientów wraca i ile przychodu generują? | `sql/03_klienci_powracajacy.sql` |
-| 4 | Które kraje generują największy przychód (UK vs reszta)? | `sql/04_geografia.sql` |
-| 5 | Jaki % sprzedaży brutto to zwroty? | `sql/05_zwroty.sql` |
+| 1 | Jak wygląda miesięczny przychód, czy widać trend/sezonowość? | `01_trend_miesieczny.sql` |
+| 2 | Top 10 produktów wg przychodu i ich udział w całości | `02_top10_produktow.sql` |
+| 3 | Jaki % klientów wraca i ile przychodu generują? | `03_klienci_powracajacy.sql` |
+| 4 | Które kraje generują największy przychód (UK vs reszta)? | `04_geografia.sql` |
+| 5 | Jaki % sprzedaży brutto to zwroty? | `05_zwroty.sql` |
 
 Użyte techniki: CTE, `GROUP BY`, `DATE_TRUNC`, funkcje okna (`SUM() OVER ()`, `ROW_NUMBER`), `CASE WHEN`, `COUNT(DISTINCT)`, `JOIN`.
 
