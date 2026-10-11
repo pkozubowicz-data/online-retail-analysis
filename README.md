@@ -52,9 +52,3 @@ Użyte techniki: CTE, `GROUP BY`, `DATE_TRUNC`, funkcje okna (`SUM() OVER ()`, `
 - Mapa: osobne zapytanie `LIMIT 4` (UK + top 3); wartości w tooltipie.
 - Brak miar DAX i relacji – dane zagregowane już w SQL.
 - Procenty z SQL zapisuję jako ułamki z `ROUND(..., 4)`, a w Power BI używam typu Percentage (lekcja: `ROUND(…, 2)` dawał 75%/98%).
-
-## Ograniczenia i co dalej
-
-- Model danych to płaskie tabele wynikowe – w kolejnym projekcie: model gwiazdy, relacje 1:N, tabela dat, miary DAX.
-- Zwroty nie są rozbite na produkty ani okresy.
-- Brak weryfikacji hipotezy o hurtownikach (np. analiza średniej wartości zamówienia).
